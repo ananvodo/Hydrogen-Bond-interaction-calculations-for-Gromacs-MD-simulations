@@ -1,0 +1,22 @@
+{
+  "MOLECULE0": {
+    "GMX_ITP_FILE": "cnc100.itp",
+    "HYDROGEN_ATOMTYPES": "HCP1, HCA1, HCA2",
+    "ALKALI_METALS_ATOMTYPES": ""
+  },
+  "MOLECULE1": {
+    "GMX_ITP_FILE": "surf.itp",
+    "HYDROGEN_ATOMTYPES": "HOY",
+    "ALKALI_METALS_ATOMTYPES": "K+"
+  },
+  "H_BOND_CONSTANTS": {
+    "DISTANCE_THRESHOLD": 0.35,
+    "ANGLE_THRESHOLD": 150
+  },
+  "GMX_FILES": {
+    "GMX_CALL": "/usr/local/bin/gmx",
+    "XTC_FILENAME": "final.xtc",
+    "TPR_FILENAME": "final.tpr",
+    "OUTPUT_GMX_DENSITY_FILENAME": "density.xvg"
+  }
+}
