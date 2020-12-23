@@ -9,7 +9,7 @@ This program can be used to calculate quantify and plot the location of hydrogen
 The purpose of this program is to quantify and plot the hydrogen bond interaction between two different species of molecules.
 The two different species of molecules are referred as: molec0 and molec1.
 
-## PROGRAM REQUIREMENTS:
+### PROGRAM REQUIREMENTS:
 
 **a)** This program requires: FileManager.py, Topology.py, Additionals.py, Molecule.py, H_bond.py, PlotManger.py, and INPUT_USER_H_BOND_CALCS.json.
 
@@ -36,7 +36,7 @@ If a list is supplied using the -g flag in the python commnand line, it is impor
 **f)** All the files mentioned in this section MUST be located in the same directory where the Main_hbonds.py is located.
 
 
-## UNDERSTANDING PROGRAM NOTATION AND CONSIDERATIONS:
+### UNDERSTANDING PROGRAM NOTATION AND CONSIDERATIONS:
 
 To consider a hydrogen bond, the following considerations must be taken into account:
 
@@ -51,7 +51,7 @@ d)  The configuration X-H---Y should comply with the cosine rule. In this cosine
 e)  Hydrogen bonds cannot take place if Y atom is an Alkali (i.e. sodium, potassium, or calcium) or another hydrogen atom.
 
 
-## IMPORTANT:
+### IMPORTANT:
 
 a)  All files must be compatible with Gromacs in order for this program to work.
 
@@ -65,19 +65,19 @@ c)  The hydrogen bond criteria in this program are supported in the publication:
     DOI: 10.1021/je500520h
 
 
-## PROGRAM ADDITIONALS:
+### PROGRAM ADDITIONALS:
 
 This program also calculates and plot a density profile plot between molec0, molec1, and the locaiton of the hydrogen bonds. Gromacs must be installed in order to determine the density profile.
 
 If there is no interest in doing this extra analysis, just uncomment lines from the sections: 'Getting the density profile using gmx density' and 'Doing the density profile plot'.
 
 
-## USEFUL TIP:
+### USEFUL TIP:
 
 If you do not want to carry so many files, you can create a python executable using pyinstaller. Make sure all the python files required are in the same directory and run:
 ```pyinstaller --onefile Main_hbonds.py ```
 
 The executable will be located inside the dist folder. This excutable is all you need and you can run it in any directory, just make sure you have the gromacs files and Json file in the same directory.
 
-### Please feel free to use this program. If you find anything useful in this program or decide to use it for your research, please fork it, click on the star, and add it in your references or citations.
+#### Please feel free to use this program. If you find anything useful in this program or decide to use it for your research, please fork it, click on the star, and add it in your references or citations.
 
