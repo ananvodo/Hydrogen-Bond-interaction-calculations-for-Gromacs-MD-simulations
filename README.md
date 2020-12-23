@@ -1,4 +1,4 @@
-# Hydrogen-Bonds-calculations-for-Gromac-MD-simulations
+# Hydrogen-Bond-interaction-calculations-for-Gromac-MD-simulations
 
 @Author: Andres Vodopivec
 
