@@ -67,7 +67,7 @@ c)  The hydrogen bond criteria in this program are supported in the publication:
 
 ### PROGRAM ADDITIONALS:
 
-This program also calculates and plot a density profile plot between molec0, molec1, and the locaiton of the hydrogen bonds. Gromacs must be installed in order to determine the density profile.
+This program also calculates and plot a density profile plot between molec0, molec1, and the location of the hydrogen bonds. Gromacs must be installed in order to determine the density profile.
 
 If there is no interest in doing this extra analysis, just uncomment lines from the sections: 'Getting the density profile using gmx density' and 'Doing the density profile plot'.
 
