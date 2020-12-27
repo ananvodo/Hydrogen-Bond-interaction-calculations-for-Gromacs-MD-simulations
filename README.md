@@ -29,7 +29,7 @@ GMX will generate a series of frameX.gro file, where X is a number from 0 to how
 If a list is supplied using the -g flag in the python commnand line, it is important that your GRO files are named using alpha-numeric (i.e. mygro0.gro, mygro1.gro, mygro2.gro, mygro3.gro, ....); otherwise, the code will fail.
     
 
-**d)**  The two itp files (one for each of the two molecule species). We refer in them in the program as molec0_itp and molec1_itp.
+**d)**  The two itp files (one for each of the two molecule species). They are referred in the program as molec0_itp and molec1_itp.
 
 **e)** The xtc and tpr files from which the GRO files were extracted
 
