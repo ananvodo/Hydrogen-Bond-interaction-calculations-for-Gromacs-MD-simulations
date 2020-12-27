@@ -4,7 +4,7 @@
 
 @Date: 2020-12-08
 
-This program can be used to calculate quantify and plot the location of hydrogen bonds in any Molecular Dynamic's system compatible with Gromacs5.x or higher, independent of the the force-field used, as long as it is an Atomistic force-field.
+This program can be used to calculate, quantify and plot the location of hydrogen bonds in any Molecular Dynamic's system compatible with Gromacs5.x or higher, independent of the the force-field used, as long as it is an Atomistic force-field.
 
 The purpose of this program is to quantify and plot the hydrogen bond interaction between two different species of molecules.
 The two different species of molecules are referred as: molec0 and molec1.
