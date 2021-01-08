@@ -42,7 +42,7 @@ To consider a hydrogen bond, the following considerations must be taken into acc
 
 a)  The hydrogen from a molecule species has to be chemically bonded to another atom in the same molecule. This is represented by X-H. Where H is the hydrogen atom, X is the atom chemically bonded to the hydrogen atom, and "-" represents the chemical bond.
 
-b)  The third atom has to come the other molecule species, and it is represented by Y. Therefore, the notation X-H---Y is the Y atom interacting with the hydrogen from the other molecule species, and "---" represent the dipole-dipole interaction.
+b)  The third atom comes from the other molecule species, and it is represented by Y. Therefore, the notation X-H---Y is the Y atom interacting with the hydrogen from the other molecule species, and "---" represent the dipole-dipole interaction.
 
 c)  The Y atom must be within a maximum distance threshold from the Hydrogen atom only (designated as dist_thres).
 
