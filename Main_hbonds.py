@@ -164,7 +164,7 @@ def run_multiprocessing(a_grofileName):
     else:
         print('\nA total of {} hydrogen bonds found between X-H from molec0 and Y from molec1 present in grofile {}\n'.format(str(len(hbonds0_list)), a_grofileName))
 
-    # h-bonds interactions between molec0 and molec1. Where in molec0 we get X-H bond and in molec 1 we get Y
+    # h-bonds interactions between molec0 and molec1. Where in molec1 we get X-H bond and in molec0 we get Y
     # ------------------------------
     print('\nThe hydrogen bonds found between X-H from molec1 and Y from molec0 present in grofile {} are:\n'.format(a_grofileName))
     hbonds1_list = add.get_bonded_interactions(molecs1_dict, itpmolec1, molecs0_dict, Hydros0, Alkali0, dist_thres, angle_thres)
