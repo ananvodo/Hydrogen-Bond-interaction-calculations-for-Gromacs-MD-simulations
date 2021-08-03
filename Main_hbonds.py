@@ -259,7 +259,7 @@ try:
     for grofile in grofiles: # printing the list of grofiles that will be analyzed
         print(grofile)
 
-    with concurrent.futures.ProcessPoolExecutor() as executor: # Doing multiprocessing
+    with concurrent.futures.ProcessPoolExecutor() as executor: # Doing multiprocessing. The code for multiprocessing belongs to Corey Schafer https://www.youtube.com/watch?v=fKl2JW_qrso
         results = executor.map(run_multiprocessing, grofiles) # Results is a list of H_Bond objects (one for every h-bond found)
 
         for result in results: # saving the results. H_bond objects in this case.
